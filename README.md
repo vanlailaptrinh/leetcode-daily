@@ -9,31 +9,31 @@ One problem a day. No excuses. This repo is where I keep my solutions and notes 
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Solve **at least 1 problem every day**
 - Understand the *pattern*, not just memorize the answer
 - Compare multiple approaches (brute force vs. optimized) and measure the difference
 - Revisit hard problems after a few days to check retention
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 leetcode-daily/
 ├── README.md                      # This file
 ├── 01_Arrays/                     # Topic: Array
-│   ├── 0001_Two_Sum/              # One folder per problem: [ID]_[Name]
+│   ├── 1. Two Sum/              # One folder per problem: [ID]_[Name]
 │   │   ├── README.md              # Detailed explanation and performance comparison
 │   │   ├── BruteForce.java        # Approach 1: brute force, O(n^2)
 │   │   ├── HashMapSolution.java   # Approach 2: optimized, O(n)
 │   │   └── img/                   # Screenshots (runtime, memory)
-│   │       ├── brute_force_perf.png
-│   │       └── hashmap_perf.png
-│   └── 0217_Contains_Duplicate/
+│   │       ├── brute_force.png
+│   │       └── hashmap_solution.png
+│   └── 217.Contains Duplicate/
 │       ├── README.md
 │       └── HashSetSolution.java
 ├── 02_Two_Pointers/               # Topic: Two Pointers
-│   └── 0026_Remove_Duplicates/
+│   └── 26. Remove Duplicates/
 └── 03_Sliding_Window/             # More topics coming
 ```
 
@@ -45,7 +45,7 @@ leetcode-daily/
 - When a problem has more than one approach, each one gets its own file (`BruteForce.java`, `HashMapSolution.java`, ...).
 - Performance screenshots go in the problem's `img/` folder.
 
-## 🚀 How I Work
+## How I Work
 
 1. Read the problem and try to solve it **without hints** (time-boxed).
 2. If stuck, think about which pattern fits before looking at any solution.
@@ -53,7 +53,7 @@ leetcode-daily/
 4. If possible, write a second, better approach and compare the two.
 5. Write the problem's `README.md`, then commit with a message like `solve: 0001 two sum`.
 
-## 🤝 Feedback
+## Feedback
 
 Found a bug or have a cleaner approach? Feel free to open an issue or PR. I'm here to learn.
 
