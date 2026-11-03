@@ -39,7 +39,7 @@ Check every unique pair of indices. Return the pair as soon as its values sum to
 
 This is simple, but it becomes slow for large inputs because it may inspect nearly every pair.
 
-![Brute-force performance](./imgs/brute_force_perf.png)
+![Brute-force performance](./imgs/brute_force.png)
 
 ---
 
